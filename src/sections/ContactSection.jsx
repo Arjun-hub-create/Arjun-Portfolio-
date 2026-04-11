@@ -25,7 +25,7 @@ export default function ContactSection() {
   const links = [
     { label: 'Email', value: 'arjunmarjun74@gmail.com', href: 'mailto:arjunmarjun74@gmail.com', color: '#00ffe7' },
     { label: 'GitHub', value: 'Arjun-hub-create', href: 'https://github.com/Arjun-hub-create', color: '#b347ff' },
-    { label: 'LinkedIn', value: 'arjun-m-dev', href: 'https://www.linkedin.com/in/arjun-m-dev/', color: '#ff2d78' },
+    { label: 'LinkedIn', value: 'arjun-m-a64242305', href: 'https://www.linkedin.com/in/arjun-m-a64242305', color: '#ff2d78' },
     { label: 'Phone', value: '+91 74833 21654', href: 'tel:+917483321654', color: '#ffd700' },
   ]
 

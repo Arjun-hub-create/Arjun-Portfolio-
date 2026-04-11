@@ -99,7 +99,7 @@ export default function AboutSection() {
               arjunmarjun74@gmail.com
             </a>
             <a
-              href="https://www.linkedin.com/in/arjun-m-dev/"
+              href="https://www.linkedin.com/in/arjun-m-a64242305"
               target="_blank"
               rel="noopener noreferrer"
               style={{

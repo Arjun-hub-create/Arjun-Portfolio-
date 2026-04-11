@@ -37,7 +37,7 @@ export default function Footer() {
       <div style={{ display: 'flex', gap: 20 }}>
         {[
           { label: 'GitHub', href: 'https://github.com/Arjun-hub-create' },
-          { label: 'LinkedIn', href: 'https://www.linkedin.com/in/arjun-m-dev/' },
+          { label: 'LinkedIn', href: 'https://www.linkedin.com/in/arjun-m-a64242305' },
           { label: 'Email', href: 'mailto:arjunmarjun74@gmail.com' },
         ].map(link => (
           <motion.a
