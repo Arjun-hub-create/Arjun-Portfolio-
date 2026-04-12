@@ -9,6 +9,7 @@ import CustomCursor from './components/CustomCursor'
 import Navbar from './components/Navbar'
 import HeroSection from './sections/HeroSection'
 import AboutSection from './sections/AboutSection'
+import EducationSection from './sections/EducationSection'
 import ProjectsSection from './sections/ProjectsSection'
 import SkillsSection from './sections/SkillsSection'
 import ContactSection from './sections/ContactSection'
@@ -71,6 +72,7 @@ export default function App() {
           <main>
             <HeroSection />
             <AboutSection />
+            <EducationSection />
             <ProjectsSection />
             <SkillsSection />
             <ContactSection />

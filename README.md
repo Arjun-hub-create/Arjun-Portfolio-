@@ -181,3 +181,7 @@ Or push to GitHub and import on [vercel.com](https://vercel.com) — zero config
 ---
 
 *Built with ❤️ from Bengaluru 🚀*
+
+<!-- cd "C:\Users\arjun\Downloads\Documents\Arjun Main Portfolio"
+npm install
+npm run dev -->

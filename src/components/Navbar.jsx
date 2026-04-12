@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const navLinks = [
-  { label: 'Home', href: '#hero' },
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home',      href: '#hero'      },
+  { label: 'About',     href: '#about'     },
+  { label: 'Education', href: '#education' },
+  { label: 'Projects',  href: '#projects'  },
+  { label: 'Skills',    href: '#skills'    },
+  { label: 'Contact',   href: '#contact'   },
 ]
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [active, setActive] = useState('Home')
-  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -22,7 +22,6 @@ export default function Navbar() {
 
   const handleNav = (href, label) => {
     setActive(label)
-    setMenuOpen(false)
     const el = document.querySelector(href)
     if (el) el.scrollIntoView({ behavior: 'smooth' })
   }
@@ -66,7 +65,7 @@ export default function Navbar() {
         </span>
       </motion.a>
 
-      {/* Desktop Links */}
+      {/* Links */}
       <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
         {navLinks.map((link) => (
           <motion.a
@@ -87,7 +86,6 @@ export default function Navbar() {
               border: active === link.label ? '1px solid rgba(0,255,231,0.3)' : '1px solid transparent',
               borderRadius: 4,
               transition: 'all 0.3s ease',
-              position: 'relative',
             }}
           >
             {link.label}
