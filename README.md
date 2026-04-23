@@ -180,7 +180,7 @@ Or push to GitHub and import on [vercel.com](https://vercel.com) — zero config
 
 ---
 
-*Built with ❤️ from Bengaluru 🚀*
+*Built with ❤️ from Arjun 🚀*
 
 <!-- cd "C:\Users\arjun\Downloads\Documents\Arjun Main Portfolio"
 npm install

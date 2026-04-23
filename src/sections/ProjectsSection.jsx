@@ -34,6 +34,12 @@ import commerce4 from '../assets/projects/commerce/commerce4.png'
 import commerce5 from '../assets/projects/commerce/commerce5.png'
 import commerce6 from '../assets/projects/commerce/commerce6.png'
 
+import curalink1 from '../assets/projects/curalink/curalink1.png'
+import curalink2 from '../assets/projects/curalink/curalink2.png'
+import curalink3 from '../assets/projects/curalink/curalink3.png'
+import curalink4 from '../assets/projects/curalink/curalink4.png'
+import curalink5 from '../assets/projects/curalink/curalink5.png'
+
 gsap.registerPlugin(ScrollTrigger)
 
 const ALL_PROJECTS = [
@@ -53,6 +59,23 @@ const ALL_PROJECTS = [
     liveUrl: 'https://aj-sentinel-frontend.onrender.com',
     githubUrl: 'https://github.com/Arjun-hub-create/AJ-Sentinel',
     images: [sentinel1, sentinel2, sentinel3, sentinel4, sentinel5, sentinel6],
+  },
+  {
+    title: 'CuraLink',
+    category: 'Platform · Medical AI',
+    filterTag: 'Medical',
+    emoji: '🧬',
+    color: '#00d4ff',
+    description: 'Full-stack MERN medical research platform querying PubMed, OpenAlex, and ClinicalTrials.gov in parallel (50–300 results), fed into a Llama 3.3 LLM pipeline via Groq that ranks and annotates the top 6–8 records with relevance scores, key findings, and plain-English summaries in under 10 seconds.',
+    highlights: [
+      'Engineered structured input with auto query expansion (disease + query combined into optimised API calls), JWT auth with role-based outputs',
+      'Persistent multi-turn AI chat sessions stored in MongoDB with clinical trial results integration',
+      'Llama 3.3 LLM pipeline via Groq ranking and annotating top records with relevance scores & plain-English summaries',
+    ],
+    stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Groq', 'Llama 3.3', 'JWT', 'PubMed API', 'OpenAlex'],
+    liveUrl: 'https://curalink-wheat.vercel.app',
+    githubUrl: 'https://github.com/Arjun-hub-create/Curalink-',
+    images: [curalink1, curalink2, curalink3, curalink4, curalink5],
   },
   {
     title: 'AJGolfHeroes',
@@ -124,7 +147,7 @@ const ALL_PROJECTS = [
   },
 ]
 
-const FILTERS = ['All', 'SaaS', 'Platform', 'App', 'E-Commerce']
+const FILTERS = ['All', 'SaaS', 'Platform', 'Medical', 'App', 'E-Commerce']
 
 /* ─── Cinematic counter that ticks up ───────────────────── */
 function CountUp({ to, duration = 1.5 }) {
@@ -311,10 +334,10 @@ export default function ProjectsSection() {
           overflow: 'hidden',
         }}>
           {[
-            { label: 'Projects Built',   value: 5,   suffix: '+', color: '#00ffe7' },
-            { label: 'Live Deployments', value: 3,   suffix: '',  color: '#b347ff' },
-            { label: 'GitHub Repos',     value: 5,   suffix: '+', color: '#ff2d78' },
-            { label: 'Tech Used',        value: 20,  suffix: '+', color: '#ffd700' },
+            { label: 'Projects Built',   value: 6,   suffix: '+', color: '#00ffe7' },
+            { label: 'Live Deployments', value: 4,   suffix: '',  color: '#b347ff' },
+            { label: 'GitHub Repos',     value: 6,   suffix: '+', color: '#ff2d78' },
+            { label: 'Tech Used',        value: 25,  suffix: '+', color: '#ffd700' },
           ].map((s, i) => (
             <div key={s.label} style={{
               padding: '24px 28px',

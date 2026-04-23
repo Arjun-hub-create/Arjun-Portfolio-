@@ -43,6 +43,20 @@ const certifications = [
     icon: '🗄️',
     year: '2024',
   },
+  {
+    title: 'Software Engineering Job Simulation',
+    issuer: 'JPMorgan Chase & Co.',
+    color: '#00ffe7',
+    icon: '🏦',
+    year: '2025',
+  },
+  {
+    title: 'Software Engineering Job Simulation',
+    issuer: 'Skyscanner',
+    color: '#00d4ff',
+    icon: '✈️',
+    year: '2025',
+  },
 ]
 
 /* ─── Animated planet orbit for decoration ─────────────────── */
